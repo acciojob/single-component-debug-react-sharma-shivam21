@@ -1,8 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./components/App";
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<App />);
-
-
-
+// Render the App component inside the element with id="root"
+ReactDOM.render(<App />, document.getElementById("root"));

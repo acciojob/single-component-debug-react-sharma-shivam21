@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --no-color 2>output.txt",
-    "start": "webpack-dev-server --mode development --watch --open --hot",
-    "build": "webpack --mode production"
+     "start": "webpack-dev-server --mode development --watch --open --hot",
+  "dev":"npm start"
   },
   "keywords": [],
   "author": "",
